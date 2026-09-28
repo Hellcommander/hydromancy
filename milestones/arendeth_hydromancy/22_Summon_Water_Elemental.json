@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_summon_water_elemental",
+	"name": "Summon Water Elemental",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_hydromancy_summon_water_elemental"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

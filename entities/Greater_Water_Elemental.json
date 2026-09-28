@@ -1,0 +1,135 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": -15,
+		"fire": 45,
+		"frost": 40,
+		"holy": 0,
+		"parry": 0,
+		"physical": 35,
+		"poison": 30,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2532",
+	"description": "A towering colossus of roaring water and hydraulic pressure. Its blows shatter armor and drown the battlefield.",
+	"experience_gainer": {
+		"exp": 0,
+		"level": 35
+	},
+	"fighter": {
+		"attackNames": [
+			"Tidal Smash"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					40,
+					120,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 560,
+	"id": "arendeth_hydromancy_greater_water_elemental",
+	"minimap_pixel": [
+		40,
+		120,
+		255
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Greater Water Elemental",
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 9,
+		"threesixty": false
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			24,
+			30
+		],
+		"endurance": [
+			34,
+			42
+		],
+		"intelligence": [
+			30,
+			40
+		],
+		"strength": [
+			48,
+			58
+		],
+		"willpower": [
+			28,
+			36
+		]
+	},
+	"tags": [
+		"3",
+		"9"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.05,
+		"damage": [
+			{
+				"dmg_max": 16,
+				"dmg_min": 8,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 8,
+				"dmg_min": 4,
+				"dmg_type": "frost"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 4,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 1
+	}
+}

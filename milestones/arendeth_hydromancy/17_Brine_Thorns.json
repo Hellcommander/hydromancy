@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_brine_thorns",
+	"name": "Brine Thorns",
+	"requirements": {
+		"milestones": [],
+		"skill": 17
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_brine_thorns"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

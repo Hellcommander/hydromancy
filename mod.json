@@ -1,0 +1,12 @@
+{
+	"author": "Arendeth",
+	"description": "Hydromancy: Soak, Hydraulic Laceration, Waterfall detonating Bleed and Laceration as true damage, fog, and core-bound elementals.",
+	"game_required": "0.10.0",
+	"icon": "icon.png",
+	"mods_required": [
+		"core_2"
+	],
+	"name": "Hydromancy",
+	"version": "2.16.0",
+	"thumbnail": "thumbnail.png"
+}

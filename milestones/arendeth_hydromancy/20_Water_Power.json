@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_water_power",
+	"name": "Water Power",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_water_power"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

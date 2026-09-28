@@ -1,0 +1,39 @@
+{
+    "id": "arendeth_hydromancy_splash_step",
+    "name": "Splash Step",
+    "description": "Ride a short current to a visible tile. Deals ::damage ::damage_type on landing, applies ::stacker_count Soak stacks, briefly disrupts aim, and wrings off dripping Wet.",
+    "target": "tile",
+    "range": 4,
+    "effects": {
+        "aoe_range": 1,
+        "aoe_shape": 4,
+
+        "damage": [3, 6],
+        "damage_type": "physical",
+        "magic_power_damage": 0.9,
+
+        "lunge": 2,
+
+        "stacker_count": 1,
+        "hit_chance": -1,
+
+        "neutralize": ["88", "89"]
+    },
+    "effects_keys": {
+        "stacker": "arendeth_hydromancy_wet"
+    },
+    "animation": "arendeth_hydromancy_water_shield_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 4
+    },
+    "cooldown": 5.0,
+    "duration": 0.0,
+    "skill": "arendeth_hydromancy",
+    "slots": {
+        "offensive": 1,
+        "utility": 3
+    },
+    "cast_time": 0.5,
+    "image": 4
+}

@@ -1,0 +1,135 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": -15,
+		"fire": 30,
+		"frost": 25,
+		"holy": 0,
+		"parry": 0,
+		"physical": 20,
+		"poison": 20,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2532",
+	"description": "A surging figure of living water bound by hydromantic pressure. It crashes into foes with crushing, freezing force.",
+	"experience_gainer": {
+		"exp": 0,
+		"level": 20
+	},
+	"fighter": {
+		"attackNames": [
+			"Crushing Surge"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					80,
+					160,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 240,
+	"id": "arendeth_hydromancy_water_elemental",
+	"minimap_pixel": [
+		80,
+		160,
+		255
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Water Elemental",
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 8,
+		"threesixty": false
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			18,
+			24
+		],
+		"endurance": [
+			24,
+			30
+		],
+		"intelligence": [
+			20,
+			28
+		],
+		"strength": [
+			34,
+			42
+		],
+		"willpower": [
+			20,
+			26
+		]
+	},
+	"tags": [
+		"3",
+		"9"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 4,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 4,
+				"dmg_min": 2,
+				"dmg_type": "frost"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 2,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 1
+	}
+}

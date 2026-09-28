@@ -1,0 +1,27 @@
+{
+    "id": "arendeth_hydromancy_brine_skin",
+    "name": "Brine Skin",
+    "description": "Crust yourself in saltwater: abrasive salt reflect and flat damage reduction for ::duration turns.",
+    "target": "self",
+    "range": 0,
+    "effects": {
+        "damage_reflect": 4,
+        "hit_chance": -2,
+        "damage_reduce": 4
+    },
+    "animation": "arendeth_hydromancy_water_shield_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 7
+    },
+    "cooldown": 22.0,
+    "duration": 8.0,
+    "skill": "arendeth_hydromancy",
+    "slots": {
+        "offensive": 0,
+        "utility": 2,
+        "defensive": 2
+    },
+    "cast_time": 1.0,
+    "image": 0
+}

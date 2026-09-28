@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_spray",
+	"name": "Spray",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_spray"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

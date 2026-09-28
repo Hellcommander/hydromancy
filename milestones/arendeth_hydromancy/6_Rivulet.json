@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_rivulet",
+	"name": "Rivulet",
+	"requirements": {
+		"milestones": [],
+		"skill": 6
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_rivulet"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

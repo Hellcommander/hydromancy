@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_saturation_burst_support",
+	"name": "Saturation Burst",
+	"requirements": {
+		"milestones": [],
+		"skill": 32
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_saturation_burst_support"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

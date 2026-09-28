@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_book_of_hydromancy",
+	"name": "Book of Hydromancy",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_hydromancy_book_of_hydromancy"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

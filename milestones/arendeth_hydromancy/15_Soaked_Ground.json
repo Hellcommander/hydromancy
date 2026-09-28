@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_soaked_ground_support",
+	"name": "Soaked Ground",
+	"requirements": {
+		"milestones": [],
+		"skill": 15
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_soaked_ground_support"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

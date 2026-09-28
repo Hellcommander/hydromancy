@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_pressurized_core",
+	"name": "Pressurized Core",
+	"requirements": {
+		"milestones": [],
+		"skill": 38
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_hydromancy_pressurized_core"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

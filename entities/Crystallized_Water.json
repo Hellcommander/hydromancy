@@ -1,0 +1,59 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"cooldown": 0,
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 3,
+				"id": "2472"
+			},
+			{
+				"amount": 1,
+				"id": "2090"
+			}
+		],
+		"time": 180,
+		"tools": []
+	},
+	"description": "Water forced into a hard crystal under hydromantic pressure.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					100,
+					150,
+					255
+				],
+				"delay": 0,
+				"index": 2579
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_hydromancy_crystallized_water",
+	"item": {
+		"image": 835,
+		"type": 17
+	},
+	"minimap_pixel": [
+		100,
+		150,
+		255
+	],
+	"name": "Crystallized Water",
+	"value": 400,
+	"weight": 0.1
+}

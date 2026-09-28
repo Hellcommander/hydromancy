@@ -1,0 +1,55 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"cooldown": 0,
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 1,
+				"id": "2006"
+			}
+		],
+		"time": 30,
+		"tools": []
+	},
+	"description": "A hydromancy reagent: Basic Water Scroll.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					100,
+					150,
+					255
+				],
+				"delay": 0,
+				"index": 2579
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_hydromancy_water_scroll_basic",
+	"item": {
+		"image": 1144,
+		"type": 17
+	},
+	"minimap_pixel": [
+		100,
+		150,
+		255
+	],
+	"name": "Basic Water Scroll",
+	"value": 800,
+	"weight": 0.1
+}

@@ -1,0 +1,150 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0
+	},
+	"chain_particles": true,
+	"id": "arendeth_hydromancy_water_splash_fx",
+	"ignore_roof": false,
+	"name": "Water Splash FX",
+	"particles": [
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 129,
+			"life": 50.0,
+			"tile_id": 1114
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1115
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1116
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1117
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1118
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1119
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1102
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 1103
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"spin": 1.0,
+			"tile_id": 1103
+		},
+		{
+			"color": [
+				[
+					70,
+					170,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"spin": 1.0,
+			"tile_id": 1103
+		}
+	],
+	"sound": {
+		"id": "127",
+		"volume": 100
+	}
+}

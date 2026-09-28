@@ -1,0 +1,88 @@
+[
+	{
+		"id": "arendeth_hydromancy",
+		"name": "Hydromancy",
+		"image": 0,
+		"description": "Hydromancy: Soak, Hydraulic Laceration (magic-scaled cuts), and Waterfall Blast that consumes Bleed and Laceration as true damage.\n\nTrain at a Hydromantic Collegium or by using abilities.\n\nEvery level from 11 onward grants +1 statistic.\n\nLevel 30 grants Hydromancy Mastery (+10% all attributes).",
+		"combat_skill": true,
+		"exp_sources": [
+			{
+				"id": "ability",
+				"rate": 2
+			}
+		],
+		"stat_points": [
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50
+		],
+		"difficulty": 2,
+		"starting_gear": [
+			{
+				"first": {
+					"id": "arendeth_hydromancy_water_core",
+					"amount": 1
+				}
+			},
+			{
+				"first": {
+					"id": "346",
+					"amount": 1
+				}
+			},
+			{
+				"first": {
+					"id": "arendeth_hydromancy_enchanted_water_essence",
+					"amount": 2
+				}
+			},
+			{
+				"first": {
+					"id": "94",
+					"amount": 1
+				},
+				"second": {
+					"id": "183",
+					"amount": 1
+				}
+			}
+		]
+	}
+]

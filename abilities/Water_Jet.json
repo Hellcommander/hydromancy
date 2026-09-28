@@ -1,0 +1,31 @@
+{
+	"animation": "arendeth_hydromancy_water_jet_fx",
+	"cast_time": 0.800000011920929,
+	"cooldown": 4.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "A cutting jet of pressurized water. Deals ::damage ::damage_type damage and applies ::stacker_count Hydraulic Laceration. Wounds scale with magic power, not Strength. Waterfall Blast later consumes these stacks as true damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			6,
+			12
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 1.0499999523162842,
+		"stacker": "arendeth_hydromancy_Hydraulic_Laceration_Bleed",
+		"stacker_count": 2
+	},
+	"id": "arendeth_hydromancy_water_jet",
+	"image": 9,
+	"name": "Water Jet",
+	"range": 7,
+	"skill": "arendeth_hydromancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "line"
+}

@@ -1,0 +1,122 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0
+	},
+	"chain_particles": true,
+	"id": "arendeth_hydromancy_fog_bank_fx",
+	"ignore_roof": false,
+	"name": "Fog Bank FX",
+	"particles": [
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 1,
+			"life": 50.0,
+			"tile_id": 1120
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1121
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1122
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1123
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1124
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1125
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1126
+		},
+		{
+			"color": [
+				[
+					210,
+					220,
+					228,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 100.0,
+			"tile_id": 1127
+		}
+	],
+	"sound": {
+		"id": "127",
+		"volume": 100
+	}
+}

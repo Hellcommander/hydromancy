@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_summon_greater_water_elemental",
+	"name": "Summon Greater Water Elemental",
+	"requirements": {
+		"milestones": [],
+		"skill": 48
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_hydromancy_summon_greater_water_elemental"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

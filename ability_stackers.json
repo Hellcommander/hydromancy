@@ -1,0 +1,44 @@
+[
+	{
+		"id": "arendeth_hydromancy_wet",
+		"name": "Soak",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "movement_speed",
+				"value": 0.03
+			},
+			{
+				"effect": "hit_chance",
+				"value": -1
+			},
+			{
+				"effect": "resistance",
+				"value": -2,
+				"secondary_value": "electricity"
+			},
+			{
+				"effect": "resistance",
+				"value": -1,
+				"secondary_value": "frost"
+			}
+		],
+		"max_stacks": 12,
+		"apply_caster": false,
+		"duration": 6,
+		"description": "Soak slows movement by 0.03 turn and reduces hit chance by 1 per stack. Each stack lowers electricity resistance by 2 and frost resistance by 1. Lasts 6 turns unless refreshed. Hydromancy hits wring off dripping Wet into Soak. Stack count is wetness depth, not duration \u2014 1 stack is light damp; more stacks are heavier soak."
+	},
+{
+    "id": "arendeth_hydromancy_laceration",
+    "name": "Hydraulic Laceration",
+    "image": 1,
+    "effects": [
+        { "effect": "tick_damage_per_stack", "value": 1, "secondary_value": "bleed" }
+    ],
+    "max_stacks": 10,
+    "duration": 4,
+    "apply_caster": false,
+    "description": "High-pressure water cuts deep, causing bleed per stack."
+}
+
+]

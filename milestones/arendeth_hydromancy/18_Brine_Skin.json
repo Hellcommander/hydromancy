@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_brine_skin",
+	"name": "Brine Skin",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_hydromancy_brine_skin"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

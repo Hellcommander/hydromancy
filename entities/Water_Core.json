@@ -1,0 +1,58 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 1,
+				"id": "arendeth_hydromancy_enchanted_water_essence"
+			},
+			{
+				"amount": 4,
+				"id": "2472"
+			}
+		],
+		"time": 500,
+		"tools": []
+	},
+	"description": "A dense sphere of water compressed and stabilized by hydromantic pressure. Spent to bind water elementals to your will.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					70,
+					140,
+					255
+				],
+				"delay": 0,
+				"index": 1766
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_hydromancy_water_core",
+	"item": {
+		"image": 682,
+		"type": 16
+	},
+	"minimap_pixel": [
+		70,
+		140,
+		255
+	],
+	"name": "Water Core",
+	"value": 450,
+	"weight": 0.5
+}

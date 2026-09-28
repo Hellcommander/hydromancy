@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_hydrostatic_sustain_support",
+	"name": "Hydrostatic Sustain",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_hydrostatic_sustain_support"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

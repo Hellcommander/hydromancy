@@ -1,0 +1,28 @@
+{
+	"animation": "196",
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 0,
+		"stamina": 18,
+		"item": "arendeth_hydromancy_greater_water_core"
+	},
+	"description": "Consume a Greater Water Core to bind a greater water elemental for ::duration turns.",
+	"duration": 50.0,
+	"effects": {
+		"summon_count": 1,
+		"hit_self": 0
+	},
+	"effects_keys": {
+		"summon": "arendeth_hydromancy_greater_water_elemental"
+	},
+	"id": "arendeth_hydromancy_summon_greater_water_elemental",
+	"image": 5,
+	"name": "Summon Greater Water Elemental",
+	"range": 4,
+	"skill": "arendeth_hydromancy",
+	"slots": {
+		"utility": 4
+	},
+	"target": "tile"
+}

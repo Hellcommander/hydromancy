@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_tidal_expansion_support",
+	"name": "Tidal Expansion",
+	"requirements": {
+		"milestones": [],
+		"skill": 40
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_tidal_expansion_support"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

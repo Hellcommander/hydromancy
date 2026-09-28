@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_soak_linger",
+	"name": "Soak Linger",
+	"requirements": {
+		"milestones": [],
+		"skill": 9
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_soak_linger"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

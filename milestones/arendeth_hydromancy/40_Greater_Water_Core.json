@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_greater_water_core",
+	"name": "Greater Water Core",
+	"requirements": {
+		"milestones": [],
+		"skill": 40
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_hydromancy_greater_water_core"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

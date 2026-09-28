@@ -1,0 +1,40 @@
+{
+    "animation": "arendeth_hydromancy_whirlpool_fx",
+    "cast_time": 1.0,
+    "cooldown": 16.0,
+    "cost": {
+        "health": 0,
+        "stamina": 10
+    },
+    "description": "Spin a control vortex. Pulls foes inward and deals light ::damage ::damage_type from collisions. Groups wounded targets for Waterfall Blast. Not a second nuke.",
+    "duration": 0.0,
+    "effects": {
+        "aoe_break": 0,
+        "aoe_range": 2,
+        "aoe_shape": 1,
+        "damage": [
+            4,
+            8
+        ],
+        "damage_type": "physical",
+        "knockback": 1,
+        "knockback_damage_percent": 0.5,
+        "magic_power_damage": 0.6,
+        "hit_chance": -1,
+        "pull_target": 1,
+        "neutralize": [
+            "88",
+            "89"
+        ]
+    },
+    "id": "arendeth_hydromancy_whirlpool_blast",
+    "image": 12,
+    "name": "Whirlpool Blast",
+    "range": 7,
+    "skill": "arendeth_hydromancy",
+    "slots": {
+        "offensive": 1,
+        "utility": 3
+    },
+    "target": "aoe_tile"
+}

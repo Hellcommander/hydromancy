@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_undertow_support",
+	"name": "Undertow Support",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_undertow_support"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

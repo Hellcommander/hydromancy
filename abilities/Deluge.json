@@ -1,0 +1,40 @@
+{
+	"animation": "arendeth_hydromancy_deluge_fx",
+	"cast_time": 0.75,
+	"cooldown": 30,
+	"cost": {
+		"health": 2,
+		"stamina": 16
+	},
+	"description": "A catastrophic flood. Deals ::damage ::damage_type, knocks foes back, applies ::stacker_count Soak stacks (heavy drench lasting the full Soak duration), and wrings off dripping Wet.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 4,
+		"damage": [
+			48,
+			78
+		],
+		"damage_type": "physical",
+		"knockback": 3,
+		"magic_power_damage": 1.5,
+		"stacker_count": 5,
+		"aoe_shape": 1,
+		"neutralize": [
+			"88",
+			"89"
+		]
+	},
+	"id": "arendeth_hydromancy_deluge",
+	"image": 1,
+	"name": "Deluge",
+	"range": 8,
+	"skill": "arendeth_hydromancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "aoe_tile",
+	"effects_keys": {
+		"stacker": "arendeth_hydromancy_wet"
+	}
+}

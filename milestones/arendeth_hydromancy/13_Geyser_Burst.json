@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_geyser_burst",
+	"name": "Geyser Burst",
+	"requirements": {
+		"milestones": [],
+		"skill": 13
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_hydromancy_geyser_burst"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,289 @@
+[
+	{
+		"id": "arendeth_hydromancy_pinprick_bleed_support",
+		"name": "Pinprick Bleed",
+		"type": "offensive",
+		"image": 0,
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 1
+			}
+		],
+		"description": "A thin hydraulic nick. +1 stack of this skill's stacker (Hydraulic Laceration on cutting jets, Soak on drench spells)."
+	},
+	{
+		"id": "arendeth_hydromancy_dewfall_support",
+		"name": "Dewfall",
+		"type": "utility",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 1
+			}
+		],
+		"description": "Apply 1 extra Soak stack."
+	},
+	{
+		"id": "arendeth_hydromancy_water_power",
+		"name": "Water Power",
+		"type": "offensive",
+		"image": 2,
+		"bonuses": [
+			{
+				"effect": "skill_level_damage",
+				"value": 0.5
+			}
+		],
+		"description": "Damage grows with Hydromancy level."
+	},
+	{
+		"id": "arendeth_hydromancy_hydraulic_laceration",
+		"name": "Hydraulic Laceration",
+		"type": "offensive",
+		"image": 3,
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 2
+			},
+			{
+				"effect": "pierce",
+				"value": 1
+			}
+		],
+		"description": "Pressurized slice. +2 Hydraulic Laceration and pierce. Magic-scaled wounds, not Strength bleed."
+	},
+	{
+		"id": "arendeth_hydromancy_soaked_ground_support",
+		"name": "Soaked Ground",
+		"type": "utility",
+		"image": 4,
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 2
+			}
+		],
+		"description": "Drench the target. +2 Soak stacks."
+	},
+	{
+		"id": "arendeth_hydromancy_crushing_current",
+		"name": "Crushing Current",
+		"type": "offensive",
+		"image": 5,
+		"bonuses": [
+			{
+				"effect": "knockback",
+				"value": 2
+			},
+			{
+				"effect": "damage_per_stacks",
+				"value": 2
+			}
+		],
+		"description": "A heavy hydraulic shove. +2 knockback and +2 damage per stack of the socketed skill stacker."
+	},
+	{
+		"id": "arendeth_hydromancy_saturation_burst_support",
+		"name": "Saturation Burst",
+		"type": "utility",
+		"image": 6,
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 2
+			},
+			{
+				"effect": "consume_tick_damage",
+				"value": "88"
+			}
+		],
+		"description": "Detonate Soak: +2 damage per Soak stack. If the target is dripping Wet, wring it off."
+	},
+	{
+		"id": "arendeth_hydromancy_undertow_support",
+		"name": "Undertow Support",
+		"type": "utility",
+		"image": 7,
+		"bonuses": [
+			{
+				"effect": "pull_target",
+				"value": 2
+			}
+		],
+		"description": "A stronger undertow. Pull 2 tiles."
+	},
+	{
+		"id": "arendeth_hydromancy_flow_swap_support",
+		"name": "Flow Swap",
+		"type": "utility",
+		"image": 8,
+		"bonuses": [
+			{
+				"effect": "chain",
+				"value": 2
+			}
+		],
+		"description": "The current leaps to two nearby foes."
+	},
+	{
+		"id": "arendeth_hydromancy_mistguard_support",
+		"name": "Mistguard",
+		"type": "defensive",
+		"image": 9,
+		"bonuses": [
+			{
+				"effect": "damage_reduce",
+				"value": 5
+			}
+		],
+		"description": "A film of mist. +5 damage reduction."
+	},
+	{
+		"id": "arendeth_hydromancy_hydrostatic_sustain_support",
+		"name": "Hydrostatic Sustain",
+		"type": "utility",
+		"image": 10,
+		"duration": 1,
+		"description": "Buffs and summons last 1 turn longer."
+	},
+	{
+		"id": "arendeth_hydromancy_tidal_expansion_support",
+		"name": "Tidal Expansion",
+		"type": "utility",
+		"image": 11,
+		"bonuses": [
+			{
+				"effect": "aoe_range",
+				"value": 1
+			}
+		],
+		"description": "Widen the flood by 1 tile."
+	},
+	{
+		"id": "arendeth_hydromancy_brine_thorns",
+		"name": "Brine Thorns",
+		"type": "defensive",
+		"bonuses": [
+			{
+				"effect": "thorns",
+				"value": 6
+			}
+		],
+		"image": 12,
+		"description": "Salt crust on a ward. +6 thorns."
+	},
+	{
+		"id": "arendeth_hydromancy_riptide_detonation",
+		"name": "Riptide Detonation",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_hydromancy_wet",
+				"secondary_value": "stun",
+				"third_value": 0.05
+			}
+		],
+		"image": 13,
+		"description": "Spend Soak: stun 0.05 turn per Soak stack, then consume those stacks."
+	},
+	{
+		"id": "arendeth_hydromancy_maelstrom_socket",
+		"name": "Maelstrom Socket",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "pull_target",
+				"value": 3
+			},
+			{
+				"effect": "aoe_range",
+				"value": 1
+			}
+		],
+		"image": 14,
+		"description": "A grinding whirlpool. Pull 3 tiles and +1 area."
+	},
+	{
+		"id": "arendeth_hydromancy_light_pull",
+		"name": "Light Pull",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "pull_target",
+				"value": 1
+			}
+		],
+		"image": 15,
+		"description": "A weak undertow. Pull the target 1 tile. Stacks with later pull supports."
+	},
+	{
+		"id": "arendeth_hydromancy_spray",
+		"name": "Spray",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "knockback",
+				"value": 1
+			}
+		],
+		"image": 16,
+		"description": "A light hydraulic shove. Knock the target back 1 tile."
+	},
+	{
+		"id": "arendeth_hydromancy_rivulet",
+		"name": "Rivulet",
+		"type": "utility",
+		"bonuses": [],
+		"image": 17,
+		"range": 1,
+		"description": "The current stretches farther. +1 range."
+	},
+	{
+		"id": "arendeth_hydromancy_eddy",
+		"name": "Eddy",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "chain",
+				"value": 1
+			}
+		],
+		"image": 18,
+		"description": "The splash jumps once to a nearby body."
+	},
+	{
+		"id": "arendeth_hydromancy_slow_current",
+		"name": "Slow Current",
+		"type": "utility",
+		"bonuses": [],
+		"image": 19,
+		"cast_time": -0.1,
+		"description": "The water starts moving before you finish the gesture. -0.1 cast time."
+	},
+	{
+		"id": "arendeth_hydromancy_soak_linger",
+		"name": "Soak Linger",
+		"type": "utility",
+		"bonuses": [],
+		"image": 20,
+		"description": "Soak applications and water constructs last 1 turn longer.",
+		"duration": 1.0
+	},
+	{
+		"id": "arendeth_hydromancy_trickle_power",
+		"name": "Trickle Power",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "skill_level_damage",
+				"value": 0.15
+			}
+		],
+		"image": 21,
+		"description": "A thin scaling trickle. +0.15 damage per Hydromancy level."
+	}
+]

@@ -1,0 +1,25 @@
+{
+	"animation": "114",
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.35,
+		"power": 5,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_hydromancy_deluge_fx",
+	"ignore_roof": true,
+	"name": "Deluge FX",
+	"random_delay": [
+		0,
+		110
+	],
+	"random_target": true,
+	"repeat": 42,
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

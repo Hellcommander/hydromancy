@@ -1,0 +1,32 @@
+{
+    "id": "arendeth_hydromancy_water_splash",
+    "name": "Water Splash",
+    "description": "Fan a cone of water. Deals ::damage ::damage_type, knocks back 1 tile, applies ::stacker_count Soak stacks, and wrings off dripping Wet.",
+    "target": "cone",
+    "range": 4,
+    "effects": {
+        "damage": [2, 5],
+        "damage_type": "physical",
+        "magic_power_damage": 0.85,
+        "stacker_count": 1,
+        "knockback": 1,
+        "neutralize": ["88", "89"]
+    },
+    "effects_keys": {
+        "stacker": "arendeth_hydromancy_wet"
+    },
+    "animation": "arendeth_hydromancy_water_splash_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 3
+    },
+    "cast_time": 0.5,
+    "cooldown": 3.0,
+    "skill": "arendeth_hydromancy",
+    "slots": {
+        "offensive": 2,
+        "utility": 2
+    },
+    "duration": 0.0,
+    "image": 10
+}

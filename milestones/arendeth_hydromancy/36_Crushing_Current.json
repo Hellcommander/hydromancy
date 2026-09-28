@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_crushing_current",
+	"name": "Crushing Current",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_hydromancy_crushing_current"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

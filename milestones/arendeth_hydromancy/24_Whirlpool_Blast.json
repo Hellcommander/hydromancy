@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_whirlpool_blast",
+	"name": "Whirlpool Blast",
+	"requirements": {
+		"milestones": [],
+		"skill": 24
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_hydromancy_whirlpool_blast"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

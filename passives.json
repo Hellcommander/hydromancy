@@ -1,0 +1,105 @@
+[
+	{
+		"id": "arendeth_hydromancy_fluid_body",
+		"name": "Fluid Body",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "on_attack_stack",
+				"value": "arendeth_hydromancy_wet"
+			},
+			{
+				"effect": "dodge",
+				"value": 0.08
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_pressurized_core",
+		"name": "Pressurized Core",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "increase_effect_value",
+				"value": "arendeth_hydromancy_laceration",
+				"secondary_value": 0.2
+			},
+			{
+				"effect": "bonus_damage",
+				"value": 3,
+				"secondary_value": "physical"
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_soaked_ground",
+		"name": "Soaked Ground",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "arendeth_hydromancy_wet",
+				"secondary_value": "physical"
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_ebb_and_flow",
+		"name": "Ebb and Flow",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "arendeth_hydromancy_wet"
+			},
+			{
+				"effect": "regeneration",
+				"value": 4
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_tide_pact",
+		"name": "Tide Pact",
+		"image": 4,
+		"effects": [
+			{
+				"effect": "on_attack_cast",
+				"value": "arendeth_hydromancy_water_bolt",
+				"secondary_value": 1.0
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_mastery",
+		"name": "Hydromancy Mastery",
+		"image": 5,
+		"effects": [
+			{
+				"effect": "statistic_percent",
+				"value": "strength",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "dexterity",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "endurance",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "intelligence",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "willpower",
+				"secondary_value": 0.1
+			}
+		]
+	}
+]

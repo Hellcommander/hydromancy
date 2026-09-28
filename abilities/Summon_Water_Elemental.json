@@ -1,0 +1,28 @@
+{
+	"animation": "196",
+	"cast_time": 0.75,
+	"cooldown": 40,
+	"cost": {
+		"health": 0,
+		"stamina": 16,
+		"item": "arendeth_hydromancy_water_core"
+	},
+	"description": "Consume a Water Core to bind a water elemental to fight beside you for ::duration turns.",
+	"duration": 40,
+	"effects": {
+		"summon_count": 1,
+		"hit_self": 0
+	},
+	"effects_keys": {
+		"summon": "arendeth_hydromancy_water_elemental"
+	},
+	"id": "arendeth_hydromancy_summon_water_elemental",
+	"image": 6,
+	"name": "Summon Water Elemental",
+	"range": 4,
+	"skill": "arendeth_hydromancy",
+	"slots": {
+		"utility": 3
+	},
+	"target": "tile"
+}

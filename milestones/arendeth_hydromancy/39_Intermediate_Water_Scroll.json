@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_intermediate_water_scroll",
+	"name": "Intermediate Water Scroll",
+	"requirements": {
+		"milestones": [],
+		"skill": 39
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_hydromancy_water_scroll_intermediate"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

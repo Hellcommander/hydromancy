@@ -1,0 +1,62 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 2,
+				"id": "arendeth_hydromancy_enchanted_water_essence"
+			},
+			{
+				"amount": 1,
+				"id": "arendeth_hydromancy_crystallized_water"
+			},
+			{
+				"amount": 6,
+				"id": "2472"
+			}
+		],
+		"time": 900,
+		"tools": []
+	},
+	"description": "A perfected water core holding immense stabilized pressure. Required to conjure a greater water elemental.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					40,
+					110,
+					255
+				],
+				"delay": 0,
+				"index": 1766
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_hydromancy_greater_water_core",
+	"item": {
+		"image": 682,
+		"type": 16
+	},
+	"minimap_pixel": [
+		40,
+		110,
+		255
+	],
+	"name": "Greater Water Core",
+	"value": 1400,
+	"weight": 0.75
+}

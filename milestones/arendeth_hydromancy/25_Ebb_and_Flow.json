@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_ebb_and_flow",
+	"name": "Ebb and Flow",
+	"requirements": {
+		"milestones": [],
+		"skill": 25
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_hydromancy_ebb_and_flow"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}
