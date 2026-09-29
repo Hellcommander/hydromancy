@@ -13,10 +13,9 @@
 			6,
 			12
 		],
+		"bleed_per_damage": 3.0,
 		"damage_type": "physical",
-		"magic_power_damage": 1.0499999523162842,
-		"stacker": "arendeth_hydromancy_Hydraulic_Laceration_Bleed",
-		"stacker_count": 2
+		"magic_power_damage": 1.05
 	},
 	"id": "arendeth_hydromancy_water_jet",
 	"image": 9,

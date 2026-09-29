@@ -7,10 +7,14 @@
 		"bonuses": [
 			{
 				"effect": "stacker_count",
-				"value": 1
+				"value": 1,
+				"effect": "bleed_per_damage",
+				"value": 1,
+				"effect": "damage_bonus_percent",
+				"value": -0.33,
 			}
 		],
-		"description": "A thin hydraulic nick. +1 stack of this skill's stacker (Hydraulic Laceration on cutting jets, Soak on drench spells)."
+		"description": "+1 stacker. +1 bleed per damage -33% less damage"
 	},
 	{
 		"id": "arendeth_hydromancy_dewfall_support",
@@ -23,7 +27,7 @@
 				"value": 1
 			}
 		],
-		"description": "Apply 1 extra Soak stack."
+		"description": "+1 stacker count"
 	},
 	{
 		"id": "arendeth_hydromancy_water_power",
@@ -53,7 +57,7 @@
 				"value": 1
 			}
 		],
-		"description": "Pressurized slice. +2 Hydraulic Laceration and pierce. Magic-scaled wounds, not Strength bleed."
+		"description": "+2 stacker count, +1 pierce"
 	},
 	{
 		"id": "arendeth_hydromancy_soaked_ground_support",

@@ -1,7 +1,7 @@
 {
     "id": "arendeth_hydromancy_geyser_burst",
     "name": "Geyser Burst",
-    "description": "Close-range erupt. Deals ::damage ::damage_type, knocks enemies back ::knockback tiles, applies ::stacker_count Soak, and cracks physical armor so later jets and bolts land.",
+    "description": "Close-range erupt. Deals ::damage ::damage_type, knocks enemies back ::knockback tiles, applies ::stacker_count Soak, inflicts a stack of bleed per damage, and cracks physical armor so later jets and bolts land.",
     "target": "aoe_tile",
     "range": 6,
     "effects": {
@@ -11,6 +11,7 @@
         "damage": [8, 14],
         "damage_type": "physical",
         "magic_power_damage": 1.0,
+		"bleed_per_damage": 1.0,
 
         "knockback": 2,
         "knockback_damage_percent": 1.0,
