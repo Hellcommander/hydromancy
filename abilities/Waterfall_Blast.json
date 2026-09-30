@@ -6,7 +6,7 @@
         "health": 1,
         "stamina": 10
     },
-    "description": "A crushing column. Consumes Bleed and Hydraulic Laceration on everyone hit and detonates them as ::damage_type damage, plus extra true damage per Laceration stack. Does not apply either wound. Costs a sliver of health.",
+    "description": "A crushing column. Consumes Bleed on everyone hit and detonates them as ::damage_type damage, plus extra true damage per Laceration stack. Does not apply either wound. Costs a sliver of health.",
     "duration": 0.0,
     "effects": {
         "aoe_break": 0,

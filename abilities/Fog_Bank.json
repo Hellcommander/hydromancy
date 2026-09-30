@@ -7,7 +7,7 @@
     "effects": {
         "aoe_range": 5,
         "aoe_shape": 1,
-        "summon_count": 100,
+        "summon_count": 24,
 
         "hit_chance": -3,
         "movement_speed": -0.02
