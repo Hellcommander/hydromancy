@@ -1,66 +1,75 @@
 {
-	"enables": [
-		"arendeth_hydromancy"
-	],
-	"id": "arendeth_hydromancy_hall",
-	"image": 39,
-	"max": 1,
-	"name": "Hydromantic Collegium",
-	"occupation_image": 74,
-	"occupation": "457",
-	"occupation_per_race": {
-		"0": "457",
-		"1": "core_2_Dwarf_Wizard",
-		"2": "core_2_Elf_Wizard",
-		"4": "core_2_Goblin_Wizard",
-		"6": "457",
-		"7": "core_2_Troll_Wizard",
-		"8": "core_2_Orc_Wizard",
-		"10": "core_2_Rasimi_Wizard",
-		"23": "core_2_Reptilion_Wizard",
-		"26": "core_2_Bone_Wraith_Wizard",
-		"31": "core_2_Gnoll_Wizard",
-		"32": "core_2_Mushman_Wizard",
-		"33": "core_2_Ursan_Wizard"
-	},
-	"produces": [
-		{
-			"entities": [
-				{
-					"daily": 0.2,
-					"id": "2006"
-				}
-			],
-			"takes": "craftable"
-		}
-	],
-	"race": "-1",
-	"tier": 3,
-	"workers": [
-		1,
-		6
-	],
-	"allow_player": true,
-	"required_entities": [
-		{
-			"entities": [
-				"731"
-			],
-			"count": 4
-		},
-		{
-			"entities": [
-				"291",
-				"537"
-			],
-			"count": 4
-		},
-		{
-			"component": "resting_place",
-			"count": 6
-		}
-	],
-	"min_area": 30,
-	"group": "military",
-	"type": "military"
+  "id": "arendeth_hydromancy_hall",
+  "name": "Hydromantic Collegium",
+  "image": 39,
+  "occupation_image": 74,
+
+  "enables": [
+    "arendeth_hydromancy"
+  ],
+
+  "max": 1,
+  "tier": 3,
+  "type": "military",
+  "group": "military",
+  "allow_player": true,
+
+  "occupation": "457",
+  "occupation_per_race": {
+    "0": "457",
+    "1": "core_2_Dwarf_Wizard",
+    "2": "core_2_Elf_Wizard",
+    "4": "core_2_Goblin_Wizard",
+    "6": "457",
+    "7": "core_2_Troll_Wizard",
+    "8": "core_2_Orc_Wizard",
+    "10": "core_2_Rasimi_Wizard",
+    "23": "core_2_Reptilion_Wizard",
+    "26": "core_2_Bone_Wraith_Wizard",
+    "31": "core_2_Gnoll_Wizard",
+    "32": "core_2_Mushman_Wizard",
+    "33": "core_2_Ursan_Wizard"
+  },
+
+  "race": -1,
+
+  "workers": [1, 6],
+
+  "produces": [
+    {
+      "takes": "craftable",
+      "entities": [
+        { "id": "2006", "daily": 0.2 }
+      ]
+    }
+  ],
+
+  "required_entities": [
+    {
+      "entities": ["731"],
+      "count": 4
+    },
+    {
+      "entities": ["291", "537"],
+      "count": 4
+    },
+    {
+      "component": "resting_place",
+      "count": 6
+    },
+    {
+      "component": "container",
+      "count": 6
+    },
+    {
+      "component": "light_source",
+      "count": 6
+    },
+    {
+      "component": "crafting_station",
+      "count": 2
+    }
+  ],
+
+  "min_area": 45
 }

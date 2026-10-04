@@ -77,11 +77,11 @@
 		"random_frame_start": true
 	},
 	"height": 0,
-	"id": "core_2_Fog",
+	"id": "hydromancy_Fog_clone",
 	"minimap_pixel": [
 		16,
 		16,
 		14
 	],
-	"name": "Fog"
+	"name": "Dense Fog"
 }

@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_fluid_body",
+	"name": "Fluid Body",
+	"requirements": {
+		"milestones": [],
+		"skill": 37
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_hydromancy_fluid_body"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

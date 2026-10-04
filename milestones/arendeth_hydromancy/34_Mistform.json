@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_hydromancy_mistform",
+	"name": "Mistform",
+	"requirements": {
+		"milestones": [],
+		"skill": 34
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_hydromancy_mistform"
+		}
+	],
+	"skill_id": "arendeth_hydromancy",
+	"steps": [],
+	"steps_type": 0
+}

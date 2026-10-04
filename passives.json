@@ -1,19 +1,48 @@
 [
 	{
+		"id": "arendeth_hydromancy_hydraulic_pressure",
+		"name": "Hydraulic Pressure",
+		"image": 3,
+		"effects": [
+			{ "effect": "ability_damage_multiplier", "value": 0.15 }
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_mistform",
+		"name": "Mistform",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_hydromancy_fog_bank",
+				"secondary_value": 0.15
+			}
+		]
+	},
+	{
+		"id": "arendeth_hydromancy_deep_saturation",
+		"name": "Deep Saturation",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "increase_effect_value",
+				"value": "arendeth_hydromancy_wet",
+				"secondary_value": 0.05
+			}
+		]
+	},
+	{
 		"id": "arendeth_hydromancy_fluid_body",
 		"name": "Fluid Body",
 		"image": 0,
 		"effects": [
 			{
-				"effect": "on_attack_stack",
-				"value": "arendeth_hydromancy_wet"
-			},
-			{
-				"effect": "dodge",
-				"value": 0.08
+				"effect": "magic_deflection",
+				"value": 0.05
 			}
 		]
 	},
+	
 	{
 		"id": "arendeth_hydromancy_pressurized_core",
 		"name": "Pressurized Core",

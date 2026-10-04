@@ -5,15 +5,11 @@
 		"type": "offensive",
 		"image": 0,
 		"bonuses": [
-			{
-				"effect": "stacker_count",
-				"value": 1,
-				"effect": "bleed_per_damage",
-				"value": 1,
-				"effect": "damage_bonus_percent",
-				"value": -0.33,
-			}
+			{ "effect": "stacker_count", "value": 1 },
+			{ "effect": "bleed_per_damage", "value": 1 },
+			{ "effect": "damage_bonus_percent", "value": -0.33 }
 		],
+		
 		"description": "+1 stacker. +1 bleed per damage -33% less damage"
 	},
 	{
@@ -98,13 +94,9 @@
 			{
 				"effect": "damage_per_stacks",
 				"value": 2
-			},
-			{
-				"effect": "consume_tick_damage",
-				"value": "88"
 			}
 		],
-		"description": "Detonate Soak: +2 damage per Soak stack. If the target is dripping Wet, wring it off."
+		"description": "+2 damage per stack. This will be improved later"
 	},
 	{
 		"id": "arendeth_hydromancy_undertow_support",

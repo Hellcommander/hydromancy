@@ -4,29 +4,39 @@
     "description": "Conjure a dense bank of fog for ::duration turns. Obscures vision and slows movement in the damp air.",
     "target": "aoe_tile",
     "range": 8,
+
     "effects": {
         "aoe_range": 5,
         "aoe_shape": 1,
         "summon_count": 24,
 
         "hit_chance": -3,
-        "movement_speed": -0.02
+        "movement_speed": -0.02,
+
+        "on_enter_apply_stack": "arendeth_hydromancy_wet"
     },
+
     "effects_keys": {
         "summon": "core_2_Fog"
     },
+
     "animation": "arendeth_hydromancy_fog_bank_fx",
+
     "cost": {
         "health": 0,
         "stamina": 10
     },
+
     "cooldown": 25.0,
     "duration": 12.0,
+
     "skill": "arendeth_hydromancy",
+
     "slots": {
         "defensive": 1,
         "utility": 3
     },
+
     "cast_time": 1.0,
     "image": 2
 }
