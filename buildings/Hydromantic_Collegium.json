@@ -14,21 +14,23 @@
   "group": "military",
   "allow_player": true,
 
-  "occupation": "457",
+  "building": "hydromancy_hall",
+
+  "occupation": "Hydrostatic_Adept",
   "occupation_per_race": {
-    "0": "457",
-    "1": "core_2_Dwarf_Wizard",
-    "2": "core_2_Elf_Wizard",
-    "4": "core_2_Goblin_Wizard",
-    "6": "457",
-    "7": "core_2_Troll_Wizard",
-    "8": "core_2_Orc_Wizard",
-    "10": "core_2_Rasimi_Wizard",
-    "23": "core_2_Reptilion_Wizard",
-    "26": "core_2_Bone_Wraith_Wizard",
-    "31": "core_2_Gnoll_Wizard",
-    "32": "core_2_Mushman_Wizard",
-    "33": "core_2_Ursan_Wizard"
+    "0": "Hydrostatic_Adept",
+    "1": "Hydrostatic_Adept",
+    "2": "Hydrostatic_Adept",
+    "4": "Hydrostatic_Adept",
+    "6": "Hydrostatic_Adept",
+    "7": "Hydrostatic_Adept",
+    "8": "Hydrostatic_Adept",
+    "10": "Hydrostatic_Adept",
+    "23": "Hydrostatic_Adept",
+    "26": "Hydrostatic_Adept",
+    "31": "Hydrostatic_Adept",
+    "32": "Hydrostatic_Adept",
+    "33": "Hydrostatic_Adept"
   },
 
   "race": -1,
@@ -63,7 +65,7 @@
     },
     {
       "component": "light_source",
-      "count": 6
+      "count": 2
     },
     {
       "component": "crafting_station",

@@ -2,7 +2,9 @@
 	"ability_user": [],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -100,7 +102,7 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 225,
+	"health": 350,
 	"humanoid": {
 		"race": "2"
 	},
@@ -126,17 +128,28 @@
 	"skills": {
 		"max_skill": 10,
 		"milestones": [
-			"arendeth_astral_magic_Astral_Frostline",
-			"arendeth_astral_magic_riftchain",
-			"core_2_heavy_duty",
-			"core_2_ignore_party",
-			"arendeth_astral_magic_Astral_Perception",
-			"arendeth_astral_magic_Summon_Astral_Wisp_Swarm"
+			"core_2_energy_steal",
+			"arendeth_hydromancy_summon_greater_water_elemental",
+			"arendeth_hydromancy_summon_water_elemental",
+			"arendeth_hydromancy_mistguard_support",
+			"arendeth_hydromancy_waterfall_blast",
+			"arendeth_hydromancy_hydraulic_pressure",
+			"arendeth_hydromancy_deluge",
+			"core_2_electricity",
+			"arendeth_hydromancy_whirlpool_blast",
+			"arendeth_hydromancy_water_jet",
+			"core_2_lightning_bolt",
+			"core_2_static_shock",
+			"arendeth_hydromancy_water_bolt",
+			"arendeth_hydromancy_fog_bank",
+			"arendeth_hydromancy_crushing_current",
+			"arendeth_hydromancy_pinprick_bleed_support",
+			"core_2_static"
 		],
 		"min_skill": 10,
 		"skills": [
-			"arendeth_astral_magic",
-			"core_2_leadership"
+			"core_2_stormthrowing",
+			"arendeth_hydromancy"
 		]
 	},
 	"stamina": {

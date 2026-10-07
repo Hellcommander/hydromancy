@@ -1,7 +1,7 @@
 {
   "conversations": [
     {
-      "id": "astral_begin",
+      "id": "arendeth_hydromancy_begin",
       "type": "begin_conversation",
       "entities": [
         "arendeth_hydromancy_Hydrostatic_Adept"
@@ -10,123 +10,123 @@
       "answer_positive": "What do you need?",
       "answer_negative": "Now is not a good time.",
       "options": [
-        "astral_trade",
-        "astral_train",
-        "astral_order",
-        "astral_directions",
-        "astral_company_order",
-        "astral_ask_trainer",
-        "astral_special_locations",
-        "astral_rumour",
-        "astral_hire",
-        "astral_back",
-        "astral_exit"
+        "arendeth_hydromancy_trade",
+        "arendeth_hydromancy_train",
+        "arendeth_hydromancy_order",
+        "arendeth_hydromancy_directions",
+        "arendeth_hydromancy_company_order",
+        "arendeth_hydromancy_ask_trainer",
+        "arendeth_hydromancy_special_locations",
+        "arendeth_hydromancy_rumour",
+        "arendeth_hydromancy_hire",
+        "arendeth_hydromancy_back",
+        "arendeth_hydromancy_exit"
       ]
     },
 
     {
-      "id": "astral_trade",
+      "id": "arendeth_hydromancy_trade",
       "type": "trade",
       "text": "Trade goods.",
       "answer_positive": "I hope everything is to your satisfaction.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_train",
+      "id": "arendeth_hydromancy_train",
       "type": "train",
       "text": "Ask for training.",
       "answer_positive": "Well, if you help out and pay for my time, I could teach you a trick or two.",
       "answer_negative": "I don't think there's anything I can teach you.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_order",
+      "id": "arendeth_hydromancy_order",
       "type": "order",
       "text": "Order a product.",
       "answer_positive": "Come back when it's ready.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_directions",
+      "id": "arendeth_hydromancy_directions",
       "type": "directions",
       "text": "Ask for directions.",
       "answer_positive": "Where do you want to go?",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_company_order",
+      "id": "arendeth_hydromancy_company_order",
       "type": "company_order",
       "text": "Ask for company orders.",
       "answer_positive": "We are in need of some new equipment.",
       "answer_negative": "We're geared well enough for now.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_ask_trainer",
+      "id": "arendeth_hydromancy_ask_trainer",
       "type": "ask_trainers",
       "text": "Ask for trainers in town.",
       "answer_positive": "What are you looking for?",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_special_locations",
+      "id": "arendeth_hydromancy_special_locations",
       "type": "special_locations",
       "text": "Ask for anything interesting nearby.",
       "answer_positive": "I heard rumours of these places.",
       "answer_negative": "I haven't heard of any such place.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_rumour",
+      "id": "arendeth_hydromancy_rumour",
       "type": "rumour",
       "text": "Ask about rumours.",
       "answer_positive": "Aye, quite a sight to see indeed. We've recently had an ::event. I heard that ::event_description.",
       "answer_negative": "Hmm... I don't think so, friend.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_hire",
+      "id": "arendeth_hydromancy_hire",
       "type": "hire_to_party",
       "text": "Hire this companion.",
       "answer_positive": "I can join you.",
       "answer_negative": "Not today.",
       "options": [
-        "astral_back"
+        "arendeth_hydromancy_back"
       ]
     },
 
     {
-      "id": "astral_back",
+      "id": "arendeth_hydromancy_back",
       "type": "back_to_main",
       "text": "Go back."
     },
 
     {
-      "id": "astral_exit",
+      "id": "arendeth_hydromancy_exit",
       "type": "exit",
       "text": "Leave."
     }
