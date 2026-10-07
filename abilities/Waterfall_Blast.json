@@ -1,48 +1,41 @@
 {
-    "animation": "arendeth_hydromancy_waterfall_fx",
-    "cast_time": 1.1,
-    "cooldown": 15.0,
-    "cost": {
-        "health": 1,
-        "stamina": 10
+	"animation": "arendeth_hydromancy_waterfall_fx",
+	"cast_time": 1.100000023841858,
+	"cooldown": 15.0,
+	"cost": {
+		"health": 1,
+		"stamina": 10
+	},
+	"description": "A crushing column. Consumes Bleed on everyone hit and detonates them as ::damage_type damage. Costs a sliver of health. Applies 5 stacks of soaking wet.",
+	"duration": 1.0,
+	"effects": {
+		"aoe_break": 0,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"consume_tick_damage": "bleed",
+		"damage": [
+			16,
+			28
+		],
+		"damage_type": "true",
+		"knockback": 2,
+		"knockback_damage_percent": 5.0,
+		"magic_power_damage": 1.100000023841858,
+		"stun": 1.0
+	},
+	    "effects_keys": {
+        "stacker": "arendeth_hydromancy_wet",
+        "stacker_count": 5
     },
-    "description": "A crushing column. Consumes Bleed on everyone hit and detonates them as ::damage_type damage, plus extra true damage per Laceration stack. Does not apply either wound. Costs a sliver of health.",
-    "duration": 0.0,
-    "effects": {
-        "aoe_break": 0,
-        "aoe_range": 2,
-        "aoe_shape": 1,
-
-        "consume_tick_damage": 1,
-
-        "damage": [
-            16,
-            28
-        ],
-        "damage_per_stacks": 5,
-        "damage_type": "true",
-        "hit_self": 0,
-        "knockback": 2,
-        "knockback_damage_percent": 5.0,
-        "magic_power_damage": 1.1,
-        "stun": 1.0,
-        "neutralize": [
-            "88",
-            "89"
-        ]
-    },
-    "effects_keys": {
-        "stacker": "arendeth_hydromancy_laceration"
-    },
-    "id": "arendeth_hydromancy_waterfall_blast",
-    "image": 11,
-    "min_range": 2,
-    "name": "Waterfall Blast",
-    "range": 10,
-    "skill": "arendeth_hydromancy",
-    "slots": {
-        "offensive": 2,
-        "utility": 2
-    },
-    "target": "aoe_tile"
+	"id": "arendeth_hydromancy_waterfall_blast",
+	"image": 11,
+	"min_range": 2,
+	"name": "Waterfall Blast",
+	"range": 10,
+	"skill": "arendeth_hydromancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "aoe_tile"
 }

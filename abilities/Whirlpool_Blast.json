@@ -27,6 +27,10 @@
             "89"
         ]
     },
+	"effects_keys": {
+        "stacker": "arendeth_hydromancy_wet",
+        "stacker_count": 1
+    },
     "id": "arendeth_hydromancy_whirlpool_blast",
     "image": 12,
     "name": "Whirlpool Blast",
