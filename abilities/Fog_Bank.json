@@ -36,7 +36,7 @@
         "defensive": 1,
         "utility": 3
     },
-
+    "tags": ["fog_field"],
     "cast_time": 1.0,
     "image": 2
 }

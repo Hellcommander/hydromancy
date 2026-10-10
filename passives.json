@@ -4,8 +4,10 @@
 		"name": "Hydraulic Pressure",
 		"image": 3,
 		"effects": [
-			{ "effect": "ability_damage_multiplier", "value": 0.15 }
-		]
+			{ "effect": "magic_power_damage", "value": 0.1 },
+			{ "effect": "damage_type_bonus", "damage_type": "water", "value": 0.05 }
+		],
+		"description": "Increases water‑based damage as pressure builds through Hydromancy."
 	},
 	{
 		"id": "arendeth_hydromancy_mistform",
@@ -15,7 +17,8 @@
 			{
 				"effect": "trigger_ability_on_cast",
 				"value": "arendeth_hydromancy_fog_bank",
-				"secondary_value": 0.15
+				"secondary_value": 0.15,
+				"tags": ["!fog_field"]
 			}
 		]
 	},
@@ -37,8 +40,9 @@
 		"image": 0,
 		"effects": [
 			{
-				"effect": "magic_deflection",
-				"value": 0.05
+				"effect": "trigger_ability_on_turn",
+				"value": "arendeth_hydromancy_deflect_pulse",
+				"secondary_value": 0.05
 			}
 		]
 	},

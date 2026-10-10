@@ -1,0 +1,25 @@
+{
+    "id": "arendeth_hydromancy_deflect_pulse",
+    "name": "Deflect Pulse",
+    "description": "Your body emites a pulse that repels a ability for the turn that it activated randomly",
+    "target": "self",
+    "range": 0,
+    "effects": {
+        "magic_deflection": 1
+    },
+    "animation": "arendeth_hydromancy_water_shield_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 0
+    },
+    "cooldown": 0.0,
+    "duration": 1.0,
+    "skill": "arendeth_hydromancy",
+    "slots": {
+        "offensive": 0,
+        "utility": 0,
+        "defensive": 0
+    },
+    "cast_time": 1.0,
+    "image": 0
+}
