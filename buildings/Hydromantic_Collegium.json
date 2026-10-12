@@ -3,75 +3,13 @@
   "name": "Hydromantic Collegium",
   "image": 39,
   "occupation_image": 74,
-
-  "enables": [
-    "arendeth_hydromancy"
-  ],
-
   "max": 1,
   "tier": 3,
   "type": "military",
   "group": "military",
   "allow_player": true,
-
-  "building": "hydromancy_hall",
-
   "occupation": "Hydrostatic_Adept",
-  "occupation_per_race": {
-    "0": "Hydrostatic_Adept",
-    "1": "Hydrostatic_Adept",
-    "2": "Hydrostatic_Adept",
-    "4": "Hydrostatic_Adept",
-    "6": "Hydrostatic_Adept",
-    "7": "Hydrostatic_Adept",
-    "8": "Hydrostatic_Adept",
-    "10": "Hydrostatic_Adept",
-    "23": "Hydrostatic_Adept",
-    "26": "Hydrostatic_Adept",
-    "31": "Hydrostatic_Adept",
-    "32": "Hydrostatic_Adept",
-    "33": "Hydrostatic_Adept"
-  },
-
-  "race": -1,
-
+  "race": "-1",
   "workers": [1, 6],
-
-  "produces": [
-    {
-      "takes": "craftable",
-      "entities": [
-        { "id": "2006", "daily": 0.2 }
-      ]
-    }
-  ],
-
-  "required_entities": [
-    {
-      "entities": ["731"],
-      "count": 4
-    },
-    {
-      "entities": ["291", "537"],
-      "count": 4
-    },
-    {
-      "component": "resting_place",
-      "count": 6
-    },
-    {
-      "component": "container",
-      "count": 6
-    },
-    {
-      "component": "light_source",
-      "count": 2
-    },
-    {
-      "component": "crafting_station",
-      "count": 2
-    }
-  ],
-
   "min_area": 45
 }
