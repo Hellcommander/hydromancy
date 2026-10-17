@@ -23,13 +23,13 @@
 					255
 				],
 				"delay": 0,
-				"index": 0
+				"index": 2
 			}
 		],
 		"random_frame_start": false
 	},
 	"item": {
-		"image": 0,
+		"image": 2,
 		"type": 17
 	},
 	"minimap_pixel": [

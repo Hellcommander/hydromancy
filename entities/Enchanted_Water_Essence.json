@@ -33,19 +33,19 @@
 		"frames": [
 			{
 				"color": [
-					100,
-					150,
+					255,
+					255,
 					255
 				],
 				"delay": 0,
-				"index": 2579
+				"index": 6
 			}
 		],
 		"random_frame_start": false
 	},
 	"id": "arendeth_hydromancy_enchanted_water_essence",
 	"item": {
-		"image": 1144,
+		"image": 4,
 		"type": 17
 	},
 	"minimap_pixel": [

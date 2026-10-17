@@ -23,12 +23,12 @@
 		"magic_power_damage": 1.100000023841858,
 		"stun": 1.0
 	},
-	    "effects_keys": {
-        "stacker": "arendeth_hydromancy_wet",
-        "stacker_count": 5
-    },
+	"effects_keys": {
+		"stacker": "arendeth_hydromancy_wet",
+		"stacker_count": 5
+	},
 	"id": "arendeth_hydromancy_waterfall_blast",
-	"image": 11,
+	"image": 13,
 	"min_range": 2,
 	"name": "Waterfall Blast",
 	"range": 10,

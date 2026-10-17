@@ -29,19 +29,19 @@
 		"frames": [
 			{
 				"color": [
-					100,
-					150,
+					255,
+					255,
 					255
 				],
 				"delay": 0,
-				"index": 2579
+				"index": 11
 			}
 		],
 		"random_frame_start": false
 	},
 	"id": "arendeth_hydromancy_water_scroll_intermediate",
 	"item": {
-		"image": 1144,
+		"image": 6,
 		"type": 17
 	},
 	"minimap_pixel": [

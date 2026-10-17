@@ -4,35 +4,46 @@
 		"name": "Hydraulic Pressure",
 		"image": 3,
 		"effects": [
-			{ "effect": "magic_power_damage", "value": 0.1 },
-			{ "effect": "damage_type_bonus", "damage_type": "water", "value": 0.05 }
+			{
+				"effect": "magic_power_damage",
+				"value": 0.1
+			},
+			{
+				"effect": "damage_type_bonus",
+				"damage_type": "water",
+				"value": 0.05
+			}
 		],
-		"description": "Increases water‑based damage as pressure builds through Hydromancy."
+		"description": "Increases water-based damage as pressure builds through Hydromancy."
 	},
 	{
 		"id": "arendeth_hydromancy_mistform",
 		"name": "Mistform",
-		"image": 3,
+		"image": 6,
 		"effects": [
 			{
-				"effect": "trigger_ability_on_cast",
+				"effect": "on_attack_cast",
 				"value": "arendeth_hydromancy_fog_bank",
 				"secondary_value": 0.15,
-				"tags": ["!fog_field"]
+				"tags": [
+					"!fog_field"
+				]
 			}
-		]
+		],
+		"description": "15% chance on attack to cast Fog Bank (not while already inside fog)."
 	},
 	{
 		"id": "arendeth_hydromancy_deep_saturation",
 		"name": "Deep Saturation",
-		"image": 3,
+		"image": 7,
 		"effects": [
 			{
 				"effect": "increase_effect_value",
 				"value": "arendeth_hydromancy_wet",
 				"secondary_value": 0.05
 			}
-		]
+		],
+		"description": "Soak effects are 5% stronger."
 	},
 	{
 		"id": "arendeth_hydromancy_fluid_body",
@@ -44,9 +55,9 @@
 				"value": "arendeth_hydromancy_deflect_pulse",
 				"secondary_value": 0.05
 			}
-		]
+		],
+		"description": "Each turn there is a 5% chance to cast Deflect Pulse."
 	},
-	
 	{
 		"id": "arendeth_hydromancy_pressurized_core",
 		"name": "Pressurized Core",
@@ -62,7 +73,8 @@
 				"value": 3,
 				"secondary_value": "physical"
 			}
-		]
+		],
+		"description": "Bleed effects are 20% stronger. +3 physical damage."
 	},
 	{
 		"id": "arendeth_hydromancy_soaked_ground",
@@ -74,12 +86,13 @@
 				"value": "arendeth_hydromancy_wet",
 				"secondary_value": "physical"
 			}
-		]
+		],
+		"description": "Your physical damage applies a stack of Soak."
 	},
 	{
 		"id": "arendeth_hydromancy_ebb_and_flow",
 		"name": "Ebb and Flow",
-		"image": 3,
+		"image": 8,
 		"effects": [
 			{
 				"effect": "stamina_on_stack_consume",
@@ -89,7 +102,8 @@
 				"effect": "regeneration",
 				"value": 4
 			}
-		]
+		],
+		"description": "Consuming Soak stacks restores 1 stamina each. +4 health regeneration."
 	},
 	{
 		"id": "arendeth_hydromancy_tide_pact",
@@ -101,7 +115,8 @@
 				"value": "arendeth_hydromancy_water_bolt",
 				"secondary_value": 1.0
 			}
-		]
+		],
+		"description": "Your attacks cast Water Bolt."
 	},
 	{
 		"id": "arendeth_hydromancy_mastery",
@@ -133,6 +148,7 @@
 				"value": "willpower",
 				"secondary_value": 0.1
 			}
-		]
+		],
+		"description": "+10% to all attributes. Stacks with other combat-branch masteries."
 	}
 ]

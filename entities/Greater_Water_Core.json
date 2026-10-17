@@ -36,19 +36,19 @@
 		"frames": [
 			{
 				"color": [
-					40,
-					110,
+					255,
+					255,
 					255
 				],
 				"delay": 0,
-				"index": 1766
+				"index": 7
 			}
 		],
 		"random_frame_start": false
 	},
 	"id": "arendeth_hydromancy_greater_water_core",
 	"item": {
-		"image": 682,
+		"image": 5,
 		"type": 16
 	},
 	"minimap_pixel": [

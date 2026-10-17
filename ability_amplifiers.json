@@ -5,11 +5,19 @@
 		"type": "offensive",
 		"image": 0,
 		"bonuses": [
-			{ "effect": "stacker_count", "value": 1 },
-			{ "effect": "bleed_per_damage", "value": 1 },
-			{ "effect": "damage_bonus_percent", "value": -0.33 }
+			{
+				"effect": "stacker_count",
+				"value": 1
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 1
+			},
+			{
+				"effect": "damage_bonus_percent",
+				"value": -0.33
+			}
 		],
-		
 		"description": "+1 stacker. +1 bleed per damage -33% less damage"
 	},
 	{

@@ -11,12 +11,12 @@
 	"effects": {
 		"aoe_range": 4,
 		"damage": [
-			48,
-			78
+			41,
+			67
 		],
 		"damage_type": "physical",
 		"knockback": 3,
-		"magic_power_damage": 1.5,
+		"magic_power_damage": 1.29,
 		"stacker_count": 5,
 		"aoe_shape": 1,
 		"neutralize": [

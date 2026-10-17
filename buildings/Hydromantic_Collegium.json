@@ -1,15 +1,28 @@
 {
-  "id": "arendeth_hydromancy_hall",
-  "name": "Hydromantic Collegium",
-  "image": 39,
-  "occupation_image": 74,
-  "max": 1,
-  "tier": 3,
-  "type": "military",
-  "group": "military",
-  "allow_player": true,
-  "occupation": "Hydrostatic_Adept",
-  "race": "-1",
-  "workers": [1, 6],
-  "min_area": 45
+	"id": "arendeth_hydromancy_hall",
+	"name": "Hydromantic Collegium",
+	"image": 39,
+	"occupation_image": 74,
+	"max": 1,
+	"tier": 3,
+	"type": "military",
+	"group": "military",
+	"allow_player": true,
+	"occupation": "arendeth_hydromancy_Hydrostatic_Adept",
+	"race": "-1",
+	"workers": [
+		1,
+		6
+	],
+	"min_area": 45,
+	"occupation_per_race": {
+		"2": "arendeth_hydromancy_Hydrostatic_Adept",
+		"0": "arendeth_hydromancy_Hydrostatic_Adept_Human",
+		"1": "arendeth_hydromancy_Hydrostatic_Adept_Dwarf",
+		"4": "arendeth_hydromancy_Hydrostatic_Adept_Goblin",
+		"7": "arendeth_hydromancy_Hydrostatic_Adept_Troll",
+		"8": "arendeth_hydromancy_Hydrostatic_Adept_Orc",
+		"23": "arendeth_hydromancy_Hydrostatic_Adept_Reptilion",
+		"6": "arendeth_hydromancy_Hydrostatic_Adept_Vampire"
+	}
 }

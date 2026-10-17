@@ -18,7 +18,7 @@
 		"magic_power_damage": 1.05
 	},
 	"id": "arendeth_hydromancy_water_jet",
-	"image": 9,
+	"image": 11,
 	"name": "Water Jet",
 	"range": 7,
 	"skill": "arendeth_hydromancy",
