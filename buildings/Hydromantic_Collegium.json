@@ -1,20 +1,32 @@
 {
 	"id": "arendeth_hydromancy_hall",
 	"name": "Hydromantic Collegium",
+	"enables": [
+		"arendeth_hydromancy"
+	],
 	"image": 39,
 	"occupation_image": 74,
 	"max": 1,
 	"tier": 3,
 	"type": "military",
-	"group": "military",
 	"allow_player": true,
 	"occupation": "arendeth_hydromancy_Hydrostatic_Adept",
 	"race": "-1",
+	"produces": [
+		{
+			"entities": [
+				{
+					"daily": 0.2,
+					"id": "arendeth_hydromancy_book_of_hydromancy"
+				}
+			],
+			"takes": "craftable"
+		}
+	],
 	"workers": [
 		1,
 		6
 	],
-	"min_area": 45,
 	"occupation_per_race": {
 		"2": "arendeth_hydromancy_Hydrostatic_Adept",
 		"0": "arendeth_hydromancy_Hydrostatic_Adept_Human",
